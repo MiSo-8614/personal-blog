@@ -64,10 +64,20 @@ main{
   border: 1px solid;
   grid-area: main;
   background-color: #74484F;
+  display: flex
 }
 
 footer{
   border: 1px solid;
   grid-area: footer;
   background-color: #81595F;
+  display: flex
+}
+
+div{
+  width: 300px;
+  border: 1px solid #82565B;
+  padding: 20px;
+  box-align: center;
+  margin: auto;
 }
