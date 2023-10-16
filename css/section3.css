@@ -1,0 +1,30 @@
+div{
+  padding: 20px;
+  box-align: center;
+  margin: auto;
+}
+
+div.card{
+  border: 1px solid #82565B;
+}
+
+#cards{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.social{
+  margin-right: 10px;
+  text-decoration: none;
+  color: #2F243A
+}
+
+@media (min-width: 900px){
+  #cards{
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+}
+
